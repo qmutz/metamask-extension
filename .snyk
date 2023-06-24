@@ -1,0 +1,80 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - gaba > provider-engine > eth-json-rpc-infura > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2023-06-24T01:06:27.731Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gaba > provider-engine > eth-json-rpc-infura > json-rpc-engine >
+          babel-preset-env > babel-plugin-transform-es2015-block-scoping >
+          lodash
+    - gaba > provider-engine > eth-json-rpc-infura > json-rpc-engine > babelify > babel-core > lodash:
+        patched: '2023-06-24T01:06:27.731Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gaba > provider-engine > eth-json-rpc-infura > json-rpc-engine >
+          babelify > babel-core > lodash
+    - eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > web3-provider-engine > eth-block-tracker > async-eventemitter > async > lodash:
+        patched: '2023-06-24T01:06:27.731Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary >
+          web3-provider-engine > eth-block-tracker > async-eventemitter > async
+          > lodash
+    - gaba > provider-engine > eth-json-rpc-infura > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-block-scoping > babel-types > lodash:
+        patched: '2023-06-24T01:06:27.731Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gaba > provider-engine > eth-json-rpc-infura > json-rpc-engine >
+          babel-preset-env > babel-plugin-transform-es2015-block-scoping >
+          babel-types > lodash
+    - gaba > provider-engine > eth-json-rpc-infura > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-block-scoping > babel-traverse > lodash:
+        patched: '2023-06-24T01:06:27.731Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gaba > provider-engine > eth-json-rpc-infura > json-rpc-engine >
+          babel-preset-env > babel-plugin-transform-es2015-block-scoping >
+          babel-traverse > lodash
+    - gaba > provider-engine > eth-json-rpc-infura > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-block-scoping > babel-template > lodash:
+        patched: '2023-06-24T01:06:27.731Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gaba > provider-engine > eth-json-rpc-infura > json-rpc-engine >
+          babel-preset-env > babel-plugin-transform-es2015-block-scoping >
+          babel-template > lodash
+    - gaba > provider-engine > eth-json-rpc-infura > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2023-06-24T01:06:27.731Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gaba > provider-engine > eth-json-rpc-infura > json-rpc-engine >
+          babel-preset-env > babel-plugin-transform-es2015-classes >
+          babel-helper-define-map > lodash
+    - gaba > provider-engine > eth-json-rpc-infura > json-rpc-engine > babel-preset-env > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash:
+        patched: '2023-06-24T01:06:27.731Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gaba > provider-engine > eth-json-rpc-infura > json-rpc-engine >
+          babel-preset-env > babel-plugin-transform-es2015-sticky-regex >
+          babel-helper-regex > lodash
+    - gaba > provider-engine > eth-json-rpc-infura > json-rpc-engine > babelify > babel-core > babel-generator > lodash:
+        patched: '2023-06-24T01:06:27.731Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gaba > provider-engine > eth-json-rpc-infura > json-rpc-engine >
+          babelify > babel-core > babel-generator > lodash
+    - gaba > provider-engine > eth-json-rpc-infura > json-rpc-engine > babelify > babel-core > babel-register > lodash:
+        patched: '2023-06-24T01:06:27.731Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gaba > provider-engine > eth-json-rpc-infura > json-rpc-engine >
+          babelify > babel-core > babel-register > lodash
+    - eth-block-tracker > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > web3-provider-engine > eth-block-tracker > async-eventemitter > async > lodash:
+        patched: '2023-06-24T01:06:27.731Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          eth-block-tracker > eth-json-rpc-infura > eth-json-rpc-middleware >
+          eth-tx-summary > web3-provider-engine > eth-block-tracker >
+          async-eventemitter > async > lodash
